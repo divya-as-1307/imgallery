@@ -1,0 +1,43 @@
+.image-container{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    padding: 100px;
+    position: relative;
+    z-index: 1;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.overlay{
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+}
+.hidden{
+    display: none;
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7{
+    text-align: center;
+    position: absolute;
+    left: 43%;
+    top:30%;
+    z-index: 2;
+display:none ;    
+}
+
+.img1,.img2,.img3,.img4,.img5,.img6,.img7 p{
+text-align: right;
+cursor: pointer;
+color: white;
+}
+
+
